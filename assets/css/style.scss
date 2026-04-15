@@ -10,3 +10,7 @@
 .mermaid text {
   fill: #ffffff !important;
 }
+
+.mermaid rect.label-container {
+  fill: transparent !important;
+}
