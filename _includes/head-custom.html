@@ -12,10 +12,6 @@
     });
 
     mermaid.initialize({ startOnLoad: true, theme: 'dark' });
-    mermaid.run().then(() => {
-      document.querySelectorAll('.quadrant-label text, .quadrant-yAxis text, .quadrant-xAxis text, .quadrant-title text').forEach((el) => {
-        el.style.fill = '#333333';
-      });
-    });
+    mermaid.run();
   });
 </script>
